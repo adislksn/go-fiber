@@ -1,0 +1,16 @@
+@hostname = http://127.0.0.1:3000/api/v1
+
+### Check Server
+GET {{hostname}}/
+
+### Get all books
+GET {{hostname}}/book
+
+### Get a single book
+GET {{hostname}}/book/1
+
+### Create a book
+POST {{hostname}}/book
+
+### Delete a book
+DELETE {{hostname}}/book/1
